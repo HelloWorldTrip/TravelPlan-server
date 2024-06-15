@@ -1,10 +1,10 @@
-package com.sprta.helloworld;
+package com.HelloWorldTrip.TravelPlan;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class HelloWorldApplicationTests {
+class TravelPlanApplicationTests {
 
 	@Test
 	void contextLoads() {

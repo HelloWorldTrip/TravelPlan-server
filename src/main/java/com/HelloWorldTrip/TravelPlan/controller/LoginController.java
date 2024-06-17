@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/api/login")
-@Tag(name = "Destination", description = "The Destination API")
+@Tag(name = "Login API", description = "The Login API")
 public class LoginController {
     private final LoginService loginService;
 

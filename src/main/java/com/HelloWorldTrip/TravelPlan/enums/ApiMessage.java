@@ -22,7 +22,11 @@ public enum ApiMessage {
     FAILED_TO_CHANGE_PASSWORD("Failed to change password", HttpStatus.INTERNAL_SERVER_ERROR),
     FAILED_TO_DEACTIVATE_MEMBER("Failed to deactivate member", HttpStatus.INTERNAL_SERVER_ERROR),
     VALIDATION_FAILED("Validation failed", HttpStatus.BAD_REQUEST),
-    VALIDATION_PW_FAILED("Validation password failed", HttpStatus.BAD_REQUEST);
+    VALIDATION_PW_FAILED("Validation password failed", HttpStatus.BAD_REQUEST),
+
+    // Login Messages
+    USER_AUTHENTICATED_SUCCESS("Member authenticated successfully", HttpStatus.OK),
+    INVALID_USERID_OR_PASSWORD("Invalid userid or password", HttpStatus.UNAUTHORIZED);
 
     private final String message;
     private final HttpStatus status;
